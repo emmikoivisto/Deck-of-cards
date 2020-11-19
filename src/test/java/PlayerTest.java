@@ -23,9 +23,5 @@ public class PlayerTest {
         assertEquals(1, player.countHand());
     }
 
-//    @Test
-//    public void canGetCard(){
-//        assertEquals(1, player.countHand());
-//    }
 
 }
