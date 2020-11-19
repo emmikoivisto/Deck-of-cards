@@ -16,11 +16,14 @@ public class Deck {
     }
 
 
-    public void populateCards(){
-        for (RankType rank : RankType.values());{
-        for (SuitType suit : SuitType.values());
-        Card card = new Card(suit, rank);
-        cards.add(card);}
+    public void populateCards() {
+        for (SuitType suit : SuitType.values()){
+            for (RankType rank : RankType.values()){
+                card = new Card(suit, rank);
+                cards.add(card);
+            }
+        }
     }
-
+    
+    
 }
