@@ -16,4 +16,13 @@ public class CardTest {
     public void canGetSuit(){
         assertEquals(SuitType.CLUBS, playingCard.getSuit());
     }
+
+    @Test
+    public void canGetRank(){
+        assertEquals(RankType.ACE, playingCard.getRank());
+    }
+
+    @Test
+    public void cardHasValueOfThree(){ assertEquals(1, playingCard.getValueRank());}
+
 }

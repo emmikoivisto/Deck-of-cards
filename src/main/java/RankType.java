@@ -13,10 +13,14 @@ public enum RankType {
     JACK(10),
     QUEEN(10),
     KING(10);
-    
+
     private final int value;
-    
+
     RankType(int value){
         this.value = value;
+        }
+
+    public int getValue(){
+        return this.value;
         }
 }
